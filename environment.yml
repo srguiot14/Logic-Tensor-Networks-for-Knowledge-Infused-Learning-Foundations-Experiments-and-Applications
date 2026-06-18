@@ -1,0 +1,15 @@
+name: TFM-LTN_Environment_2026
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tensorflow
+  - jupyter
+  - pip
+  - pip:
+      - ltn==2.1
